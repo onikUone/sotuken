@@ -10,8 +10,9 @@
 
 #define INPUTNO 2   /* 入力層の数 */
 #define HIDDENNO 2  /* 中間層の数 */
-#define ALPHA 10    /* 学習係数 */
-#define SEED 65535  /* 乱数用シード */
+#define ALPHA 5    /* 学習係数 */
+//#define SEED 65535  /* 乱数用シード */
+#define SEED 6555  /* 乱数用シード */
 #define MAXINPUTNO 100 /* 学習データの最大個数 */
 #define BIGNUM 100  /* 誤差の初期値 */
 #define LIMIT 0.001 /* 誤差の許容値 */
